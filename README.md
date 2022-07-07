@@ -26,6 +26,11 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## IMPORTANT
+
+The test said: entities between 1 and 20, but the api's link is down, for that, i moked and api
+to simulate the same behavior, but, the entities are between 1 and 10
+
 ## Installation
 
 ```bash
