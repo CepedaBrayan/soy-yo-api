@@ -25,8 +25,8 @@ COPY --from=install /src/install .
 COPY . .
 
 # Compilamos e instalamos dependencias en modo producción.
-RUN npm run prebuild
 RUN npm run build
+RUN npm install --production=true
 
 # Por último, usaremos la versión alpine
 FROM node:16-alpine as deploy
