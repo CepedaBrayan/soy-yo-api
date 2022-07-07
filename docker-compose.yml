@@ -6,7 +6,7 @@ services:
     container_name: nestjs-docker
     build:
       context: .
-      dockerfile: Dockerfil
+      dockerfile: Dockerfile
     ports:
       - 3000:3000
     volumes:
