@@ -1,22 +1,6 @@
-import {
-  ArrayMinSize,
-  IsArray,
-  IsBoolean,
-  IsNotEmpty,
-  IsNumber,
-  IsOptional,
-  IsString,
-  Min,
-  Max,
-} from 'class-validator';
+import { IsNumber } from 'class-validator';
 
-import {
-  ApiCreatedResponse,
-  ApiResponse,
-  ApiOkResponse,
-  ApiProperty,
-  ApiOperation,
-} from '@nestjs/swagger';
+import { ApiProperty } from '@nestjs/swagger';
 
 export class FilterEntityDto {
   @ApiProperty({

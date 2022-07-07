@@ -1,22 +1,12 @@
-import {
-  Controller,
-  Get,
-  Post,
-  Body,
-  Patch,
-  Param,
-  Delete,
-} from '@nestjs/common';
+import { Controller, Post, Body } from '@nestjs/common';
 import { EntitiesService } from './entities.service';
 import { FilterEntityDto } from './dto/filter-entity.dto';
 import { Entity } from './entities/entity.entity';
 import {
   ApiCreatedResponse,
   ApiResponse,
-  ApiOkResponse,
   ApiBody,
   ApiTags,
-  ApiProperty,
   ApiOperation,
 } from '@nestjs/swagger';
 
