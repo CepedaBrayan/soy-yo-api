@@ -10,7 +10,6 @@ import {
 import { EntitiesService } from './entities.service';
 import { FilterEntityDto } from './dto/filter-entity.dto';
 import { Entity } from './entities/entity.entity';
-import { Error } from './entities/error.entity';
 import {
   ApiCreatedResponse,
   ApiResponse,
@@ -38,12 +37,10 @@ export class EntitiesController {
   @ApiResponse({
     status: 400,
     description: 'Error en la validación datos de entrada',
-    type: Error,
   })
   @ApiResponse({
     status: 404,
     description: 'Error no se encuentra para rango especificado',
-    type: Error,
   })
   create(@Body() filterEntityDto: FilterEntityDto) {
     return this.entitiesService.filter(filterEntityDto);
