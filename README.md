@@ -26,6 +26,18 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## IMPORTANT
+
+The test said: entities between 1 and 20, but the api's link is down, for that, i moked and api
+to simulate the same behavior, but, the entities are between 1 and 10.<br>
+[https://demo9850821.mockable.io/entities/1](https://demo9850821.mockable.io/entities/1)<br>
+[https://demo9850821.mockable.io/entities/2](https://demo9850821.mockable.io/entities/2)<br>
+[https://demo9850821.mockable.io/entities/3](https://demo9850821.mockable.io/entities/3)<br>
+.<br>
+.<br>
+.<br>
+[https://demo9850821.mockable.io/entities/10](https://demo9850821.mockable.io/entities/10)
+
 ## Installation
 
 ```bash
@@ -35,14 +47,8 @@ $ npm install
 ## Running the app
 
 ```bash
-# development
-$ npm run start
-
 # watch mode
 $ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
 ## Test
@@ -50,12 +56,13 @@ $ npm run start:prod
 ```bash
 # unit tests
 $ npm run test
+```
 
-# e2e tests
-$ npm run test:e2e
+## Documentation - SWAGGER - URLS
 
-# test coverage
-$ npm run test:cov
+```bash
+
+http://http://localhost:3000/api/
 ```
 
 ## Support
@@ -71,3 +78,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+```
+
+```
