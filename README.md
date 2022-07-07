@@ -38,17 +38,25 @@ to simulate the same behavior, but, the entities are between 1 and 10.<br>
 .<br>
 [https://demo9850821.mockable.io/entities/10](https://demo9850821.mockable.io/entities/10)
 
-## Installation
+## Installation and Running the app via local npm
 
 ```bash
 $ npm install
-```
 
-## Running the app
-
-```bash
 # watch mode
 $ npm run start:dev
+```
+
+## Building and Running the app via Docker
+
+```bash
+# Build Local
+$ docker-compose build
+# Run Local
+$ docker-compose up
+
+# Build in path or url
+$ docker build {URL | PATH}
 ```
 
 ## Test
