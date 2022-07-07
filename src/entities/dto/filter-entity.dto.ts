@@ -27,8 +27,6 @@ export class FilterEntityDto {
     example: 2,
   })
   @IsNumber()
-  @Min(1)
-  @Max(10)
   start_id: number;
 
   @ApiProperty({
@@ -39,7 +37,5 @@ export class FilterEntityDto {
     example: 10,
   })
   @IsNumber()
-  @Min(1)
-  @Max(10)
   end_id: number;
 }
