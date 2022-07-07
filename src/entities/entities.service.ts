@@ -34,7 +34,9 @@ export class EntitiesService {
             throw new NotFoundException(error.message);
           });
       }
-      return allEntities.sort((a, b) => a.name.localeCompare(b.name));
+      return {
+        entities: allEntities.sort((a, b) => a.name.localeCompare(b.name)),
+      };
     } catch (error) {
       throw new ServiceUnavailableException();
     }
