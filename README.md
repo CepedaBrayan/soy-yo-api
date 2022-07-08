@@ -38,10 +38,14 @@ to simulate the same behavior, but, the entities are between 1 and 10.<br>
 .<br>
 [https://demo9850821.mockable.io/entities/10](https://demo9850821.mockable.io/entities/10)
 
-## Installation and Running the app via local npm
+## Installation, Testing and Running the app via local npm
 
 ```bash
+# installl dependencies
 $ npm install
+
+# unit tests
+$ npm run test
 
 # watch mode
 $ npm run start:dev
@@ -52,6 +56,7 @@ $ npm run start:dev
 ```bash
 # Build Local
 $ docker-compose build
+
 # Run Local
 $ docker-compose up
 
@@ -59,18 +64,11 @@ $ docker-compose up
 $ docker build {URL | PATH}
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-```
-
 ## Documentation - SWAGGER - URLS
 
 ```bash
 
-http://http://localhost:3000/api/
+http://localhost:3000/api/
 ```
 
 ## Support
